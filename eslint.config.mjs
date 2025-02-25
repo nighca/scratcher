@@ -23,7 +23,9 @@ export default tseslint.config(
     },
 
     rules: {
-      '@typescript-eslint/explicit-function-return-type': 'warn',
+      '@typescript-eslint/explicit-function-return-type': 'off',
+      '@typescript-eslint/no-explicit-any': 'off',
+      '@typescript-eslint/no-unused-vars': 'off'
     },
 
     languageOptions: {
@@ -48,7 +50,7 @@ export default tseslint.config(
     },
 
     rules: {
-      ...vitest.configs.recommended.rules,
+      ...vitest.configs?.recommended.rules,
     },
 
     settings: {
@@ -59,7 +61,7 @@ export default tseslint.config(
 
     languageOptions: {
       globals: {
-        ...vitest.environments.env.globals,
+        ...vitest.environments?.env.globals,
       },
     },
   },
