@@ -51,6 +51,6 @@ async function listPopularProjects(api: ScratchAPI, count: number, startOffset?:
 
 (async function main() {
   const api = new ScratchAPI()
-  await listPopularProjects(api, 10000, 3000)
+  await listPopularProjects(api, 10000, 0)
   console.log('[DONE]')
 })()

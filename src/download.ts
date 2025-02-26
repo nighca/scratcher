@@ -37,7 +37,7 @@ async function downloadPopularProjects(api: ScratchAPI) {
 }
 
 (async function main() {
-  const api = new ScratchAPI()
+  const api = new ScratchAPI(undefined, 1000)
   await downloadPopularProjects(api)
   // const ids = Array.from({ length: 10 }, (_, i) => i + 1100000000)
   // await downloadProjectsById(api, ids)

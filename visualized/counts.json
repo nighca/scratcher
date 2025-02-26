@@ -1,82 +1,82 @@
 {
-  "projectNum": 2087,
-  "blockNum": 5262519,
+  "projectNum": 6087,
+  "blockNum": 13884850,
   "blockCounts": [
     {
       "type": "operator",
-      "count": 1066326,
+      "count": 2774365,
       "children": [
         {
           "opcode": "equals",
-          "count": 326530
-        },
-        {
-          "opcode": "add",
-          "count": 89438
+          "count": 833365
         },
         {
           "opcode": "and",
-          "count": 87826
+          "count": 242495
         },
         {
-          "opcode": "multiply",
-          "count": 75717
+          "opcode": "add",
+          "count": 228602
         },
         {
           "opcode": "lt",
-          "count": 73836
+          "count": 202301
+        },
+        {
+          "opcode": "multiply",
+          "count": 199302
         },
         {
           "opcode": "subtract",
-          "count": 71974
+          "count": 188724
         },
         {
           "opcode": "or",
-          "count": 65991
-        },
-        {
-          "opcode": "gt",
-          "count": 49279
+          "count": 173852
         },
         {
           "opcode": "divide",
-          "count": 48011
+          "count": 127040
+        },
+        {
+          "opcode": "gt",
+          "count": 125176
         },
         {
           "opcode": "random",
-          "count": 40275
+          "count": 104426
         },
         {
           "opcode": "not",
-          "count": 34294
+          "count": 91210
         },
         {
           "opcode": "join",
-          "count": 32493
+          "count": 80563
         },
         {
           "opcode": "mathop",
-          "count": 22498
+          "count": 60034
         },
         {
           "opcode": "letter_of",
-          "count": 15251
-        },
-        {
-          "opcode": "contains",
-          "count": 11361
+          "count": 39938
         },
         {
           "opcode": "round",
-          "count": 11295
+          "count": 26967
+        },
+        {
+          "opcode": "contains",
+          "count": 26603
         },
         {
           "opcode": "mod",
-          "count": 6681
+          "count": 14913
         },
         {
           "opcode": "length",
-          "count": 3575
+          "count": 8853
         },
         {
           "opcode": "join3",
@@ -86,421 +86,425 @@
     },
     {
       "type": "control",
-      "count": 986969,
+      "count": 2592809,
       "children": [
         {
           "opcode": "wait",
-          "count": 279771
+          "count": 782219
         },
         {
           "opcode": "if",
-          "count": 215217
+          "count": 547901
         },
         {
           "opcode": "if_else",
-          "count": 147158
+          "count": 378890
         },
         {
           "opcode": "repeat",
-          "count": 117967
+          "count": 312672
         },
         {
           "opcode": "forever",
-          "count": 53271
-        },
-        {
-          "opcode": "create_clone_of_menu",
-          "count": 31469
-        },
-        {
-          "opcode": "create_clone_of",
-          "count": 31445
-        },
-        {
-          "opcode": "stop",
-          "count": 29726
+          "count": 142704
         },
         {
           "opcode": "wait_until",
-          "count": 28648
+          "count": 81627
+        },
+        {
+          "opcode": "stop",
+          "count": 79131
+        },
+        {
+          "opcode": "create_clone_of_menu",
+          "count": 68079
+        },
+        {
+          "opcode": "create_clone_of",
+          "count": 68042
         },
         {
           "opcode": "repeat_until",
-          "count": 18547
+          "count": 51012
         },
         {
           "opcode": "delete_this_clone",
-          "count": 17441
+          "count": 40462
         },
         {
           "opcode": "start_as_clone",
-          "count": 15832
+          "count": 39146
         },
         {
           "opcode": "for_each",
-          "count": 269
+          "count": 564
         },
         {
           "opcode": "while",
-          "count": 169
-        },
-        {
-          "opcode": "all_at_once",
-          "count": 10
-        },
-        {
-          "opcode": "incr_counter",
-          "count": 10
+          "count": 302
         },
         {
           "opcode": "clear_counter",
-          "count": 10
+          "count": 16
+        },
+        {
+          "opcode": "all_at_once",
+          "count": 14
+        },
+        {
+          "opcode": "incr_counter",
+          "count": 14
         },
         {
           "opcode": "get_counter",
-          "count": 9
+          "count": 13
+        },
+        {
+          "opcode": "delete_clones_of",
+          "count": 1
         }
       ]
     },
     {
       "type": "looks",
-      "count": 878075,
+      "count": 2367252,
       "children": [
         {
           "opcode": "costume",
-          "count": 232666
+          "count": 634242
         },
         {
           "opcode": "switchcostumeto",
-          "count": 232519
-        },
-        {
-          "opcode": "seteffectto",
-          "count": 79262
+          "count": 633827
         },
         {
           "opcode": "hide",
-          "count": 78118
+          "count": 213927
+        },
+        {
+          "opcode": "seteffectto",
+          "count": 211031
         },
         {
           "opcode": "show",
-          "count": 56388
+          "count": 148364
         },
         {
           "opcode": "gotofrontback",
-          "count": 33269
+          "count": 88998
         },
         {
           "opcode": "costumenumbername",
-          "count": 32146
-        },
-        {
-          "opcode": "changeeffectby",
-          "count": 28218
+          "count": 82172
         },
         {
           "opcode": "setsizeto",
-          "count": 27610
+          "count": 72855
+        },
+        {
+          "opcode": "changeeffectby",
+          "count": 69829
         },
         {
           "opcode": "nextcostume",
-          "count": 19522
+          "count": 55251
         },
         {
           "opcode": "changesizeby",
-          "count": 11833
+          "count": 29325
         },
         {
           "opcode": "goforwardbackwardlayers",
-          "count": 10981
+          "count": 28180
         },
         {
           "opcode": "size",
-          "count": 7689
+          "count": 18642
         },
         {
           "opcode": "cleargraphiceffects",
-          "count": 7510
+          "count": 18438
         },
         {
           "opcode": "backdrops",
-          "count": 5915
+          "count": 16495
         },
         {
           "opcode": "switchbackdropto",
-          "count": 5866
+          "count": 16393
         },
         {
           "opcode": "sayforsecs",
-          "count": 3750
+          "count": 13785
         },
         {
           "opcode": "say",
-          "count": 2881
+          "count": 8348
         },
         {
           "opcode": "backdropnumbername",
-          "count": 1297
+          "count": 4858
         },
         {
           "opcode": "nextbackdrop",
-          "count": 340
-        },
-        {
-          "opcode": "thinkforsecs",
-          "count": 159
+          "count": 896
         },
         {
           "opcode": "think",
-          "count": 84
+          "count": 656
+        },
+        {
+          "opcode": "thinkforsecs",
+          "count": 635
         },
         {
           "opcode": "switchbackdroptoandwait",
-          "count": 46
+          "count": 95
         },
         {
           "opcode": "setstretchto",
-          "count": 2
-        },
-        {
-          "opcode": "changestretchby",
-          "count": 2
-        },
-        {
-          "opcode": "hideallsprites",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "type": "data",
-      "count": 532549,
-      "children": [
-        {
-          "opcode": "setvariableto",
-          "count": 250018
-        },
-        {
-          "opcode": "itemoflist",
-          "count": 110820
-        },
-        {
-          "opcode": "changevariableby",
-          "count": 62468
-        },
-        {
-          "opcode": "replaceitemoflist",
-          "count": 34545
-        },
-        {
-          "opcode": "addtolist",
-          "count": 32689
-        },
-        {
-          "opcode": "deletealloflist",
-          "count": 9917
-        },
-        {
-          "opcode": "lengthoflist",
-          "count": 8320
-        },
-        {
-          "opcode": "itemnumoflist",
-          "count": 6206
-        },
-        {
-          "opcode": "listcontainsitem",
-          "count": 5175
-        },
-        {
-          "opcode": "deleteoflist",
-          "count": 3863
-        },
-        {
-          "opcode": "hidevariable",
-          "count": 3690
-        },
-        {
-          "opcode": "showvariable",
-          "count": 2135
-        },
-        {
-          "opcode": "insertatlist",
-          "count": 1360
-        },
-        {
-          "opcode": "hidelist",
-          "count": 918
-        },
-        {
-          "opcode": "showlist",
-          "count": 425
-        }
-      ]
-    },
-    {
-      "type": "procedures",
-      "count": 513236,
-      "children": [
-        {
-          "opcode": "call",
-          "count": 369514
-        },
-        {
-          "opcode": "prototype",
-          "count": 71881
-        },
-        {
-          "opcode": "definition",
-          "count": 71841
-        }
-      ]
-    },
-    {
-      "type": "sensing",
-      "count": 344997,
-      "children": [
-        {
-          "opcode": "touchingobjectmenu",
-          "count": 68733
-        },
-        {
-          "opcode": "touchingobject",
-          "count": 68697
-        },
-        {
-          "opcode": "distancetomenu",
-          "count": 36615
-        },
-        {
-          "opcode": "distanceto",
-          "count": 36613
-        },
-        {
-          "opcode": "of",
-          "count": 22729
-        },
-        {
-          "opcode": "of_object_menu",
-          "count": 22717
-        },
-        {
-          "opcode": "timer",
-          "count": 19651
-        },
-        {
-          "opcode": "keyoptions",
-          "count": 16955
-        },
-        {
-          "opcode": "keypressed",
-          "count": 16935
-        },
-        {
-          "opcode": "mousedown",
-          "count": 14042
-        },
-        {
-          "opcode": "mousey",
-          "count": 6220
-        },
-        {
-          "opcode": "mousex",
-          "count": 3664
-        },
-        {
-          "opcode": "answer",
-          "count": 2194
-        },
-        {
-          "opcode": "touchingcolor",
-          "count": 2065
-        },
-        {
-          "opcode": "current",
-          "count": 1631
-        },
-        {
-          "opcode": "resettimer",
-          "count": 1586
-        },
-        {
-          "opcode": "username",
-          "count": 1233
-        },
-        {
-          "opcode": "dayssince2000",
-          "count": 1105
-        },
-        {
-          "opcode": "askandwait",
-          "count": 769
-        },
-        {
-          "opcode": "setdragmode",
-          "count": 666
-        },
-        {
-          "opcode": "coloristouchingcolor",
-          "count": 163
-        },
-        {
-          "opcode": "loudness",
-          "count": 7
-        },
-        {
-          "opcode": "loud",
           "count": 4
         },
         {
-          "opcode": "userid",
+          "opcode": "changestretchby",
+          "count": 3
+        },
+        {
+          "opcode": "hideallsprites",
           "count": 3
         }
       ]
     },
     {
+      "type": "procedures",
+      "count": 1361706,
+      "children": [
+        {
+          "opcode": "call",
+          "count": 980755
+        },
+        {
+          "opcode": "prototype",
+          "count": 190641
+        },
+        {
+          "opcode": "definition",
+          "count": 190310
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "count": 1351272,
+      "children": [
+        {
+          "opcode": "setvariableto",
+          "count": 586823
+        },
+        {
+          "opcode": "itemoflist",
+          "count": 323359
+        },
+        {
+          "opcode": "changevariableby",
+          "count": 149707
+        },
+        {
+          "opcode": "replaceitemoflist",
+          "count": 96858
+        },
+        {
+          "opcode": "addtolist",
+          "count": 87963
+        },
+        {
+          "opcode": "deletealloflist",
+          "count": 24898
+        },
+        {
+          "opcode": "lengthoflist",
+          "count": 19417
+        },
+        {
+          "opcode": "itemnumoflist",
+          "count": 15090
+        },
+        {
+          "opcode": "listcontainsitem",
+          "count": 12992
+        },
+        {
+          "opcode": "hidevariable",
+          "count": 11080
+        },
+        {
+          "opcode": "deleteoflist",
+          "count": 9405
+        },
+        {
+          "opcode": "showvariable",
+          "count": 6108
+        },
+        {
+          "opcode": "insertatlist",
+          "count": 3916
+        },
+        {
+          "opcode": "hidelist",
+          "count": 2456
+        },
+        {
+          "opcode": "showlist",
+          "count": 1200
+        }
+      ]
+    },
+    {
+      "type": "sensing",
+      "count": 942037,
+      "children": [
+        {
+          "opcode": "touchingobjectmenu",
+          "count": 196610
+        },
+        {
+          "opcode": "touchingobject",
+          "count": 196557
+        },
+        {
+          "opcode": "distancetomenu",
+          "count": 104480
+        },
+        {
+          "opcode": "distanceto",
+          "count": 104468
+        },
+        {
+          "opcode": "timer",
+          "count": 56680
+        },
+        {
+          "opcode": "of",
+          "count": 49974
+        },
+        {
+          "opcode": "of_object_menu",
+          "count": 49956
+        },
+        {
+          "opcode": "keyoptions",
+          "count": 44908
+        },
+        {
+          "opcode": "keypressed",
+          "count": 44888
+        },
+        {
+          "opcode": "mousedown",
+          "count": 36540
+        },
+        {
+          "opcode": "mousey",
+          "count": 16327
+        },
+        {
+          "opcode": "mousex",
+          "count": 8909
+        },
+        {
+          "opcode": "answer",
+          "count": 7038
+        },
+        {
+          "opcode": "touchingcolor",
+          "count": 5677
+        },
+        {
+          "opcode": "resettimer",
+          "count": 4627
+        },
+        {
+          "opcode": "username",
+          "count": 3365
+        },
+        {
+          "opcode": "current",
+          "count": 3217
+        },
+        {
+          "opcode": "dayssince2000",
+          "count": 2801
+        },
+        {
+          "opcode": "askandwait",
+          "count": 2600
+        },
+        {
+          "opcode": "setdragmode",
+          "count": 1937
+        },
+        {
+          "opcode": "coloristouchingcolor",
+          "count": 445
+        },
+        {
+          "opcode": "loudness",
+          "count": 20
+        },
+        {
+          "opcode": "loud",
+          "count": 7
+        },
+        {
+          "opcode": "userid",
+          "count": 6
+        }
+      ]
+    },
+    {
       "type": "event",
-      "count": 289152,
+      "count": 772810,
       "children": [
         {
           "opcode": "whenbroadcastreceived",
-          "count": 145079
+          "count": 382568
         },
         {
           "opcode": "whenflagclicked",
-          "count": 59002
+          "count": 161223
         },
         {
           "opcode": "broadcast",
-          "count": 58650
+          "count": 150736
         },
         {
           "opcode": "whenthisspriteclicked",
-          "count": 14190
-        },
-        {
-          "opcode": "broadcastandwait",
-          "count": 5357
+          "count": 40195
         },
         {
           "opcode": "whenkeypressed",
-          "count": 4353
+          "count": 15260
+        },
+        {
+          "opcode": "broadcastandwait",
+          "count": 11452
         },
         {
           "opcode": "whenbackdropswitchesto",
-          "count": 1809
+          "count": 9516
         },
         {
           "opcode": "whengreaterthan",
-          "count": 645
+          "count": 1675
         },
         {
           "opcode": "whenstageclicked",
-          "count": 53
+          "count": 163
         },
         {
           "opcode": "whentouchingobject",
-          "count": 8
+          "count": 15
         },
         {
           "opcode": "definition",
@@ -508,21 +512,21 @@
         },
         {
           "opcode": "touchingobjectmenu",
-          "count": 2
+          "count": 3
         }
       ]
     },
     {
       "type": "argument",
-      "count": 242295,
+      "count": 680634,
       "children": [
         {
           "opcode": "reporter_string_number",
-          "count": 239227
+          "count": 668866
         },
         {
           "opcode": "reporter_boolean",
-          "count": 3059
+          "count": 11759
         },
         {
           "opcode": "editor_boolean",
@@ -532,157 +536,157 @@
     },
     {
       "type": "motion",
-      "count": 233492,
+      "count": 608316,
       "children": [
         {
           "opcode": "gotoxy",
-          "count": 56692
+          "count": 144422
         },
         {
           "opcode": "changeyby",
-          "count": 43583
+          "count": 119829
         },
         {
           "opcode": "pointindirection",
-          "count": 18870
+          "count": 46914
         },
         {
           "opcode": "changexby",
-          "count": 15248
-        },
-        {
-          "opcode": "xposition",
-          "count": 13800
+          "count": 40601
         },
         {
           "opcode": "yposition",
-          "count": 13231
+          "count": 35450
+        },
+        {
+          "opcode": "xposition",
+          "count": 34596
         },
         {
           "opcode": "glidesecstoxy",
-          "count": 9970
+          "count": 26363
         },
         {
           "opcode": "goto_menu",
-          "count": 8996
+          "count": 24194
         },
         {
           "opcode": "goto",
-          "count": 8994
+          "count": 24192
         },
         {
           "opcode": "turnright",
-          "count": 8713
+          "count": 21882
         },
         {
           "opcode": "movesteps",
-          "count": 7458
-        },
-        {
-          "opcode": "direction",
-          "count": 5546
+          "count": 20770
         },
         {
           "opcode": "sety",
-          "count": 5486
+          "count": 12943
+        },
+        {
+          "opcode": "direction",
+          "count": 12122
         },
         {
           "opcode": "setx",
-          "count": 4758
+          "count": 10784
         },
         {
           "opcode": "turnleft",
-          "count": 3786
+          "count": 10147
         },
         {
           "opcode": "setrotationstyle",
-          "count": 3300
+          "count": 7677
         },
         {
           "opcode": "pointtowards_menu",
-          "count": 2307
+          "count": 6749
         },
         {
           "opcode": "pointtowards",
-          "count": 2304
-        },
-        {
-          "opcode": "ifonedgebounce",
-          "count": 170
+          "count": 6743
         },
         {
           "opcode": "glideto_menu",
-          "count": 137
+          "count": 680
         },
         {
           "opcode": "glideto",
-          "count": 136
+          "count": 679
+        },
+        {
+          "opcode": "ifonedgebounce",
+          "count": 565
         },
         {
           "opcode": "scroll_right",
-          "count": 2
+          "count": 4
         },
         {
           "opcode": "scroll_up",
-          "count": 2
+          "count": 4
         },
         {
           "opcode": "align_scene",
-          "count": 1
+          "count": 2
         },
         {
           "opcode": "xscroll",
-          "count": 1
+          "count": 2
         },
         {
           "opcode": "yscroll",
-          "count": 1
+          "count": 2
         }
       ]
     },
     {
       "type": "sound",
-      "count": 120855,
+      "count": 328047,
       "children": [
         {
           "opcode": "sounds_menu",
-          "count": 41212
-        },
-        {
-          "opcode": "play",
-          "count": 32984
+          "count": 111578
         },
         {
           "opcode": "setvolumeto",
-          "count": 32645
+          "count": 89814
+        },
+        {
+          "opcode": "play",
+          "count": 89314
         },
         {
           "opcode": "playuntildone",
-          "count": 8204
+          "count": 22196
         },
         {
           "opcode": "stopallsounds",
-          "count": 2875
+          "count": 7932
         },
         {
           "opcode": "seteffectto",
-          "count": 1356
+          "count": 3146
         },
         {
           "opcode": "changevolumeby",
-          "count": 911
+          "count": 2194
         },
         {
           "opcode": "cleareffects",
-          "count": 286
-        },
-        {
-          "opcode": "volume",
-          "count": 254
+          "count": 845
         },
         {
           "opcode": "changeeffectby",
-          "count": 127
+          "count": 572
+        },
+        {
+          "opcode": "volume",
+          "count": 455
         },
         {
           "opcode": "beats_menu",
@@ -692,267 +696,309 @@
     },
     {
       "type": "music",
-      "count": 25253,
+      "count": 42118,
       "children": [
         {
           "opcode": "playNoteForBeats",
-          "count": 16128
+          "count": 25986
         },
         {
           "opcode": "restForBeats",
-          "count": 6833
+          "count": 12249
         },
         {
           "opcode": "menu_DRUM",
-          "count": 1009
+          "count": 1415
         },
         {
           "opcode": "playDrumForBeats",
-          "count": 1007
+          "count": 1412
         },
         {
           "opcode": "menu_INSTRUMENT",
-          "count": 75
+          "count": 391
         },
         {
           "opcode": "setInstrument",
-          "count": 73
-        },
-        {
-          "opcode": "getTempo",
-          "count": 73
+          "count": 388
         },
         {
           "opcode": "setTempo",
-          "count": 55
+          "count": 177
+        },
+        {
+          "opcode": "getTempo",
+          "count": 100
         }
       ]
     },
     {
       "type": "note",
-      "count": 16156,
+      "count": 26017,
       "children": [
         {
           "opcode": "",
-          "count": 16156
+          "count": 26017
         }
       ]
     },
     {
       "type": "pen",
-      "count": 8506,
+      "count": 25648,
       "children": [
         {
           "opcode": "stamp",
-          "count": 1757
+          "count": 4570
         },
         {
           "opcode": "penUp",
-          "count": 1317
-        },
-        {
-          "opcode": "setPenColorToColor",
-          "count": 1109
+          "count": 4210
         },
         {
           "opcode": "penDown",
-          "count": 1052
+          "count": 3452
         },
         {
-          "opcode": "clear",
-          "count": 941
+          "opcode": "setPenColorToColor",
+          "count": 3311
         },
         {
           "opcode": "setPenSizeTo",
-          "count": 929
+          "count": 2775
+        },
+        {
+          "opcode": "clear",
+          "count": 2657
         },
         {
           "opcode": "menu_colorParam",
-          "count": 668
+          "count": 2269
         },
         {
           "opcode": "setPenColorParamTo",
-          "count": 511
+          "count": 1858
         },
         {
           "opcode": "changePenColorParamBy",
-          "count": 154
+          "count": 376
         },
         {
           "opcode": "changePenSizeBy",
-          "count": 62
+          "count": 132
         },
         {
           "opcode": "setPenShadeToNumber",
-          "count": 4
+          "count": 25
         },
         {
           "opcode": "setPenHueToNumber",
+          "count": 11
+        },
+        {
+          "opcode": "changePenShadeBy",
           "count": 2
         }
       ]
     },
     {
       "type": "text2speech",
-      "count": 4040,
+      "count": 10368,
       "children": [
         {
           "opcode": "speakAndWait",
-          "count": 1852
+          "count": 4887
         },
         {
           "opcode": "menu_voices",
-          "count": 755
+          "count": 1855
         },
         {
           "opcode": "setVoice",
-          "count": 753
+          "count": 1853
         },
         {
           "opcode": "menu_languages",
-          "count": 341
+          "count": 888
         },
         {
           "opcode": "setLanguage",
-          "count": 339
+          "count": 885
         }
       ]
     },
     {
       "type": "translate",
-      "count": 268,
+      "count": 741,
       "children": [
         {
           "opcode": "menu_languages",
-          "count": 110
+          "count": 299
         },
         {
           "opcode": "getTranslate",
-          "count": 108
+          "count": 296
         },
         {
           "opcode": "getViewerLanguage",
-          "count": 50
+          "count": 146
         }
       ]
     },
     {
       "type": "makeymakey",
-      "count": 245,
+      "count": 393,
       "children": [
         {
           "opcode": "menu_SEQUENCE",
-          "count": 88
+          "count": 141
         },
         {
           "opcode": "whenCodePressed",
-          "count": 87
+          "count": 139
         },
         {
           "opcode": "menu_KEY",
-          "count": 36
+          "count": 58
         },
         {
           "opcode": "whenMakeyKeyPressed",
-          "count": 34
-        }
-      ]
-    },
-    {
-      "type": "matrix",
-      "count": 33,
-      "children": [
-        {
-          "opcode": "",
-          "count": 33
+          "count": 55
         }
       ]
     },
     {
       "type": "videoSensing",
-      "count": 32,
+      "count": 160,
       "children": [
         {
           "opcode": "menu_VIDEO_STATE",
-          "count": 9
+          "count": 54
         },
         {
           "opcode": "videoToggle",
-          "count": 7
-        },
-        {
-          "opcode": "menu_ATTRIBUTE",
-          "count": 5
-        },
-        {
-          "opcode": "menu_SUBJECT",
-          "count": 5
+          "count": 51
         },
         {
           "opcode": "setVideoTransparency",
-          "count": 3
+          "count": 22
+        },
+        {
+          "opcode": "menu_ATTRIBUTE",
+          "count": 12
+        },
+        {
+          "opcode": "menu_SUBJECT",
+          "count": 12
         },
         {
           "opcode": "videoOn",
-          "count": 3
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "matrix",
+      "count": 61,
+      "children": [
+        {
+          "opcode": "",
+          "count": 61
+        }
+      ]
+    },
+    {
+      "type": "undefined",
+      "count": 32,
+      "children": [
+        {
+          "opcode": "",
+          "count": 32
         }
       ]
     },
     {
       "type": "wedo2",
-      "count": 21,
+      "count": 26,
       "children": [
         {
           "opcode": "menu_OP",
-          "count": 12
+          "count": 13
         },
         {
           "opcode": "menu_TILT_DIRECTION",
-          "count": 6
+          "count": 7
         },
         {
           "opcode": "menu_MOTOR_ID",
-          "count": 2
+          "count": 3
         },
         {
           "opcode": "menu_MOTOR_DIRECTION",
+          "count": 2
+        },
+        {
+          "opcode": "setLightHue",
           "count": 1
         }
       ]
     },
     {
       "type": "gdxfor",
-      "count": 15,
+      "count": 22,
       "children": [
         {
           "opcode": "menu_axisOptions",
-          "count": 8
-        },
-        {
-          "opcode": "menu_tiltAnyOptions",
-          "count": 2
+          "count": 9
         },
         {
           "opcode": "menu_pushPullOptions",
-          "count": 2
+          "count": 4
+        },
+        {
+          "opcode": "menu_tiltAnyOptions",
+          "count": 3
         },
         {
           "opcode": "menu_gestureOptions",
-          "count": 2
+          "count": 3
         },
         {
           "opcode": "menu_tiltOptions",
+          "count": 2
+        },
+        {
+          "opcode": "whenForcePushedOrPulled",
           "count": 1
         }
       ]
     },
     {
-      "type": "undefined",
-      "count": 2,
+      "type": "microbit",
+      "count": 11,
       "children": [
         {
-          "opcode": "",
+          "opcode": "menu_tiltDirectionAny",
+          "count": 3
+        },
+        {
+          "opcode": "isButtonPressed",
           "count": 2
+        },
+        {
+          "opcode": "menu_buttons",
+          "count": 2
+        },
+        {
+          "opcode": "isTilted",
+          "count": 2
+        },
+        {
+          "opcode": "whenTilted",
+          "count": 1
+        },
+        {
+          "opcode": "displayClear",
+          "count": 1
         }
       ]
     },
@@ -969,52 +1015,76 @@
           "count": 1
         }
       ]
+    },
+    {
+      "type": "boost",
+      "count": 2,
+      "children": [
+        {
+          "opcode": "whenColor",
+          "count": 1
+        },
+        {
+          "opcode": "menu_COLOR",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "ev3",
+      "count": 1,
+      "children": [
+        {
+          "opcode": "getDistance",
+          "count": 1
+        }
+      ]
     }
   ],
   "projectCounts": [
     {
       "type": "event",
-      "count": 2085,
+      "count": 6083,
       "children": [
         {
           "opcode": "whenflagclicked",
-          "count": 2084
+          "count": 6082
         },
         {
           "opcode": "whenbroadcastreceived",
-          "count": 1903
+          "count": 5480
         },
         {
           "opcode": "broadcast",
-          "count": 1881
+          "count": 5396
         },
         {
           "opcode": "whenthisspriteclicked",
-          "count": 892
+          "count": 2582
         },
         {
           "opcode": "whenkeypressed",
-          "count": 798
+          "count": 2187
         },
         {
           "opcode": "broadcastandwait",
-          "count": 516
+          "count": 1308
         },
         {
           "opcode": "whengreaterthan",
-          "count": 335
+          "count": 900
         },
         {
           "opcode": "whenbackdropswitchesto",
-          "count": 75
+          "count": 243
         },
         {
           "opcode": "whenstageclicked",
-          "count": 51
+          "count": 151
         },
         {
           "opcode": "whentouchingobject",
-          "count": 4
+          "count": 8
         },
         {
           "opcode": "definition",
@@ -1022,433 +1092,387 @@
         },
         {
           "opcode": "touchingobjectmenu",
-          "count": 2
+          "count": 3
         }
       ]
     },
     {
       "type": "control",
-      "count": 2080,
+      "count": 6065,
       "children": [
         {
           "opcode": "wait",
-          "count": 1931
+          "count": 5543
         },
         {
           "opcode": "forever",
-          "count": 1920
+          "count": 5531
         },
         {
           "opcode": "repeat",
-          "count": 1882
+          "count": 5425
         },
         {
           "opcode": "if",
-          "count": 1541
+          "count": 4325
         },
         {
           "opcode": "if_else",
-          "count": 1532
+          "count": 4258
         },
         {
           "opcode": "repeat_until",
-          "count": 1389
+          "count": 3876
         },
         {
           "opcode": "create_clone_of_menu",
-          "count": 1375
+          "count": 3701
         },
         {
           "opcode": "create_clone_of",
-          "count": 1374
+          "count": 3700
         },
         {
           "opcode": "start_as_clone",
-          "count": 1359
+          "count": 3652
         },
         {
           "opcode": "stop",
-          "count": 1294
+          "count": 3533
         },
         {
           "opcode": "delete_this_clone",
-          "count": 1210
+          "count": 3200
         },
         {
           "opcode": "wait_until",
-          "count": 1151
+          "count": 3169
         },
         {
           "opcode": "while",
-          "count": 19
+          "count": 43
         },
         {
           "opcode": "for_each",
-          "count": 14
+          "count": 37
         },
         {
           "opcode": "all_at_once",
-          "count": 5
-        },
-        {
-          "opcode": "get_counter",
-          "count": 3
-        },
-        {
-          "opcode": "incr_counter",
-          "count": 3
+          "count": 7
         },
         {
           "opcode": "clear_counter",
-          "count": 3
+          "count": 6
+        },
+        {
+          "opcode": "get_counter",
+          "count": 6
+        },
+        {
+          "opcode": "incr_counter",
+          "count": 6
+        },
+        {
+          "opcode": "delete_clones_of",
+          "count": 1
         }
       ]
     },
     {
       "type": "looks",
-      "count": 2077,
+      "count": 6065,
       "children": [
         {
           "opcode": "switchcostumeto",
-          "count": 2011
+          "count": 5849
         },
         {
           "opcode": "costume",
-          "count": 2011
+          "count": 5849
         },
         {
           "opcode": "show",
-          "count": 1942
+          "count": 5568
         },
         {
           "opcode": "hide",
-          "count": 1900
+          "count": 5464
         },
         {
           "opcode": "seteffectto",
-          "count": 1783
+          "count": 5004
         },
         {
           "opcode": "gotofrontback",
-          "count": 1764
+          "count": 4932
         },
         {
           "opcode": "setsizeto",
-          "count": 1674
+          "count": 4767
         },
         {
           "opcode": "nextcostume",
-          "count": 1639
+          "count": 4582
         },
         {
           "opcode": "changeeffectby",
-          "count": 1558
+          "count": 4374
         },
         {
           "opcode": "costumenumbername",
-          "count": 1394
+          "count": 3707
         },
         {
           "opcode": "changesizeby",
-          "count": 1263
+          "count": 3410
         },
         {
           "opcode": "backdrops",
-          "count": 1052
+          "count": 2848
         },
         {
           "opcode": "switchbackdropto",
-          "count": 1045
+          "count": 2833
         },
         {
           "opcode": "cleargraphiceffects",
-          "count": 882
+          "count": 2357
         },
         {
           "opcode": "goforwardbackwardlayers",
-          "count": 880
+          "count": 2289
         },
         {
           "opcode": "size",
-          "count": 771
+          "count": 2123
         },
         {
           "opcode": "say",
-          "count": 263
+          "count": 699
         },
         {
           "opcode": "sayforsecs",
-          "count": 188
+          "count": 542
         },
         {
           "opcode": "nextbackdrop",
-          "count": 152
+          "count": 403
         },
         {
           "opcode": "backdropnumbername",
-          "count": 124
-        },
-        {
-          "opcode": "think",
-          "count": 26
+          "count": 322
         },
         {
           "opcode": "thinkforsecs",
-          "count": 23
+          "count": 84
+        },
+        {
+          "opcode": "think",
+          "count": 82
         },
         {
           "opcode": "switchbackdroptoandwait",
-          "count": 23
+          "count": 58
         },
         {
           "opcode": "changestretchby",
-          "count": 2
+          "count": 3
         },
         {
           "opcode": "hideallsprites",
-          "count": 2
+          "count": 3
         },
         {
           "opcode": "setstretchto",
-          "count": 1
+          "count": 2
         }
       ]
     },
     {
       "type": "motion",
-      "count": 2021,
+      "count": 5842,
       "children": [
         {
           "opcode": "gotoxy",
-          "count": 1977
+          "count": 5706
         },
         {
           "opcode": "changeyby",
-          "count": 1429
+          "count": 3879
         },
         {
           "opcode": "changexby",
-          "count": 1380
+          "count": 3727
         },
         {
           "opcode": "pointindirection",
-          "count": 1276
-        },
-        {
-          "opcode": "yposition",
-          "count": 1258
+          "count": 3438
         },
         {
           "opcode": "xposition",
-          "count": 1254
+          "count": 3420
         },
         {
-          "opcode": "turnright",
-          "count": 919
+          "opcode": "yposition",
+          "count": 3371
         },
         {
           "opcode": "glidesecstoxy",
-          "count": 876
+          "count": 2413
+        },
+        {
+          "opcode": "turnright",
+          "count": 2365
         },
         {
           "opcode": "goto",
-          "count": 762
+          "count": 1943
         },
         {
           "opcode": "goto_menu",
-          "count": 762
-        },
-        {
-          "opcode": "sety",
-          "count": 721
+          "count": 1943
         },
         {
           "opcode": "movesteps",
-          "count": 713
+          "count": 1916
+        },
+        {
+          "opcode": "sety",
+          "count": 1811
         },
         {
           "opcode": "setx",
-          "count": 652
+          "count": 1581
         },
         {
           "opcode": "direction",
-          "count": 540
-        },
-        {
-          "opcode": "setrotationstyle",
-          "count": 483
+          "count": 1255
         },
         {
           "opcode": "turnleft",
-          "count": 475
+          "count": 1219
+        },
+        {
+          "opcode": "setrotationstyle",
+          "count": 1166
         },
         {
           "opcode": "pointtowards",
-          "count": 302
+          "count": 714
         },
         {
           "opcode": "pointtowards_menu",
-          "count": 302
+          "count": 714
         },
         {
           "opcode": "glideto_menu",
-          "count": 51
+          "count": 178
         },
         {
           "opcode": "glideto",
-          "count": 50
+          "count": 177
         },
         {
           "opcode": "ifonedgebounce",
-          "count": 50
+          "count": 135
         },
         {
           "opcode": "align_scene",
-          "count": 1
+          "count": 2
         },
         {
           "opcode": "scroll_right",
-          "count": 1
+          "count": 2
         },
         {
           "opcode": "scroll_up",
-          "count": 1
+          "count": 2
         },
         {
           "opcode": "xscroll",
-          "count": 1
+          "count": 2
         },
         {
           "opcode": "yscroll",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "type": "sound",
-      "count": 1952,
-      "children": [
-        {
-          "opcode": "sounds_menu",
-          "count": 1948
-        },
-        {
-          "opcode": "playuntildone",
-          "count": 1596
-        },
-        {
-          "opcode": "play",
-          "count": 1391
-        },
-        {
-          "opcode": "setvolumeto",
-          "count": 883
-        },
-        {
-          "opcode": "stopallsounds",
-          "count": 733
-        },
-        {
-          "opcode": "changevolumeby",
-          "count": 325
-        },
-        {
-          "opcode": "seteffectto",
-          "count": 254
-        },
-        {
-          "opcode": "volume",
-          "count": 107
-        },
-        {
-          "opcode": "cleareffects",
-          "count": 89
-        },
-        {
-          "opcode": "changeeffectby",
-          "count": 63
-        },
-        {
-          "opcode": "beats_menu",
-          "count": 1
+          "count": 2
         }
       ]
     },
     {
       "type": "operator",
-      "count": 1936,
+      "count": 5615,
       "children": [
         {
           "opcode": "equals",
-          "count": 1655
+          "count": 4653
         },
         {
           "opcode": "subtract",
-          "count": 1481
-        },
-        {
-          "opcode": "multiply",
-          "count": 1391
+          "count": 4167
         },
         {
           "opcode": "divide",
-          "count": 1376
+          "count": 3846
+        },
+        {
+          "opcode": "multiply",
+          "count": 3830
         },
         {
           "opcode": "random",
-          "count": 1319
+          "count": 3616
         },
         {
           "opcode": "not",
-          "count": 1260
+          "count": 3487
         },
         {
           "opcode": "add",
-          "count": 1245
+          "count": 3410
         },
         {
           "opcode": "and",
-          "count": 1237
+          "count": 3311
         },
         {
           "opcode": "lt",
-          "count": 1168
+          "count": 3230
         },
         {
           "opcode": "gt",
-          "count": 1162
+          "count": 3144
         },
         {
           "opcode": "or",
-          "count": 1130
+          "count": 2999
         },
         {
           "opcode": "mathop",
-          "count": 1057
+          "count": 2833
         },
         {
           "opcode": "join",
-          "count": 892
+          "count": 2403
         },
         {
           "opcode": "letter_of",
-          "count": 822
+          "count": 2149
         },
         {
           "opcode": "round",
-          "count": 791
+          "count": 2083
         },
         {
           "opcode": "contains",
-          "count": 546
+          "count": 1419
         },
         {
           "opcode": "length",
-          "count": 515
+          "count": 1303
         },
         {
           "opcode": "mod",
-          "count": 362
+          "count": 932
         },
         {
           "opcode": "join3",
@@ -1457,202 +1481,252 @@
       ]
     },
     {
-      "type": "sensing",
-      "count": 1673,
+      "type": "sound",
+      "count": 5612,
       "children": [
         {
-          "opcode": "touchingobjectmenu",
-          "count": 1115
+          "opcode": "sounds_menu",
+          "count": 5599
         },
         {
-          "opcode": "touchingobject",
-          "count": 1114
+          "opcode": "playuntildone",
+          "count": 4458
         },
         {
-          "opcode": "mousedown",
-          "count": 1049
+          "opcode": "play",
+          "count": 3942
         },
         {
-          "opcode": "timer",
-          "count": 829
+          "opcode": "setvolumeto",
+          "count": 2322
         },
         {
-          "opcode": "keypressed",
-          "count": 798
+          "opcode": "stopallsounds",
+          "count": 1992
         },
         {
-          "opcode": "keyoptions",
-          "count": 798
+          "opcode": "changevolumeby",
+          "count": 779
         },
         {
-          "opcode": "mousex",
-          "count": 731
+          "opcode": "seteffectto",
+          "count": 659
         },
         {
-          "opcode": "mousey",
-          "count": 702
+          "opcode": "cleareffects",
+          "count": 243
         },
         {
-          "opcode": "resettimer",
-          "count": 681
+          "opcode": "volume",
+          "count": 229
         },
         {
-          "opcode": "of",
-          "count": 628
+          "opcode": "changeeffectby",
+          "count": 160
         },
         {
-          "opcode": "of_object_menu",
-          "count": 628
-        },
-        {
-          "opcode": "distanceto",
-          "count": 474
-        },
-        {
-          "opcode": "distancetomenu",
-          "count": 474
-        },
-        {
-          "opcode": "username",
-          "count": 261
-        },
-        {
-          "opcode": "askandwait",
-          "count": 248
-        },
-        {
-          "opcode": "answer",
-          "count": 247
-        },
-        {
-          "opcode": "touchingcolor",
-          "count": 149
-        },
-        {
-          "opcode": "setdragmode",
-          "count": 104
-        },
-        {
-          "opcode": "dayssince2000",
-          "count": 85
-        },
-        {
-          "opcode": "current",
-          "count": 67
-        },
-        {
-          "opcode": "coloristouchingcolor",
-          "count": 42
-        },
-        {
-          "opcode": "loudness",
-          "count": 6
-        },
-        {
-          "opcode": "loud",
-          "count": 2
-        },
-        {
-          "opcode": "userid",
+          "opcode": "beats_menu",
           "count": 1
         }
       ]
     },
     {
+      "type": "sensing",
+      "count": 4768,
+      "children": [
+        {
+          "opcode": "touchingobjectmenu",
+          "count": 2926
+        },
+        {
+          "opcode": "touchingobject",
+          "count": 2925
+        },
+        {
+          "opcode": "mousedown",
+          "count": 2834
+        },
+        {
+          "opcode": "timer",
+          "count": 2265
+        },
+        {
+          "opcode": "keypressed",
+          "count": 2127
+        },
+        {
+          "opcode": "keyoptions",
+          "count": 2122
+        },
+        {
+          "opcode": "resettimer",
+          "count": 1925
+        },
+        {
+          "opcode": "mousex",
+          "count": 1871
+        },
+        {
+          "opcode": "mousey",
+          "count": 1823
+        },
+        {
+          "opcode": "of",
+          "count": 1554
+        },
+        {
+          "opcode": "of_object_menu",
+          "count": 1554
+        },
+        {
+          "opcode": "distanceto",
+          "count": 1170
+        },
+        {
+          "opcode": "distancetomenu",
+          "count": 1170
+        },
+        {
+          "opcode": "username",
+          "count": 683
+        },
+        {
+          "opcode": "askandwait",
+          "count": 637
+        },
+        {
+          "opcode": "answer",
+          "count": 630
+        },
+        {
+          "opcode": "touchingcolor",
+          "count": 424
+        },
+        {
+          "opcode": "setdragmode",
+          "count": 270
+        },
+        {
+          "opcode": "dayssince2000",
+          "count": 247
+        },
+        {
+          "opcode": "current",
+          "count": 181
+        },
+        {
+          "opcode": "coloristouchingcolor",
+          "count": 112
+        },
+        {
+          "opcode": "loudness",
+          "count": 12
+        },
+        {
+          "opcode": "loud",
+          "count": 3
+        },
+        {
+          "opcode": "userid",
+          "count": 2
+        }
+      ]
+    },
+    {
       "type": "data",
-      "count": 1654,
+      "count": 4673,
       "children": [
         {
           "opcode": "setvariableto",
-          "count": 1631
+          "count": 4607
         },
         {
           "opcode": "changevariableby",
-          "count": 1446
+          "count": 3987
         },
         {
           "opcode": "addtolist",
-          "count": 805
+          "count": 2152
         },
         {
           "opcode": "deletealloflist",
-          "count": 801
+          "count": 2134
         },
         {
           "opcode": "itemoflist",
-          "count": 793
+          "count": 2066
         },
         {
           "opcode": "replaceitemoflist",
-          "count": 610
+          "count": 1629
         },
         {
           "opcode": "lengthoflist",
-          "count": 521
+          "count": 1378
         },
         {
           "opcode": "hidevariable",
-          "count": 448
+          "count": 1210
         },
         {
           "opcode": "listcontainsitem",
-          "count": 438
-        },
-        {
-          "opcode": "deleteoflist",
-          "count": 423
+          "count": 1103
         },
         {
           "opcode": "showvariable",
-          "count": 392
+          "count": 1100
+        },
+        {
+          "opcode": "deleteoflist",
+          "count": 1074
         },
         {
           "opcode": "itemnumoflist",
-          "count": 302
+          "count": 657
         },
         {
           "opcode": "hidelist",
-          "count": 229
+          "count": 553
         },
         {
           "opcode": "showlist",
-          "count": 218
+          "count": 525
         },
         {
           "opcode": "insertatlist",
-          "count": 186
+          "count": 426
         }
       ]
     },
     {
       "type": "procedures",
-      "count": 1375,
+      "count": 3808,
       "children": [
         {
           "opcode": "prototype",
-          "count": 1373
+          "count": 3801
         },
         {
           "opcode": "definition",
-          "count": 1372
+          "count": 3800
         },
         {
           "opcode": "call",
-          "count": 1366
+          "count": 3769
         }
       ]
     },
     {
       "type": "argument",
-      "count": 1202,
+      "count": 3236,
       "children": [
         {
           "opcode": "reporter_string_number",
-          "count": 1198
+          "count": 3225
         },
         {
           "opcode": "reporter_boolean",
-          "count": 141
+          "count": 355
         },
         {
           "opcode": "editor_boolean",
@@ -1662,267 +1736,309 @@
     },
     {
       "type": "pen",
-      "count": 268,
+      "count": 773,
       "children": [
         {
           "opcode": "clear",
-          "count": 264
-        },
-        {
-          "opcode": "stamp",
-          "count": 179
+          "count": 754
         },
         {
           "opcode": "penDown",
-          "count": 161
+          "count": 507
+        },
+        {
+          "opcode": "stamp",
+          "count": 502
         },
         {
           "opcode": "penUp",
-          "count": 160
-        },
-        {
-          "opcode": "setPenColorToColor",
-          "count": 156
+          "count": 502
         },
         {
           "opcode": "setPenSizeTo",
-          "count": 155
+          "count": 494
+        },
+        {
+          "opcode": "setPenColorToColor",
+          "count": 462
         },
         {
           "opcode": "menu_colorParam",
-          "count": 95
+          "count": 313
         },
         {
           "opcode": "setPenColorParamTo",
-          "count": 89
+          "count": 290
         },
         {
           "opcode": "changePenColorParamBy",
-          "count": 43
+          "count": 140
         },
         {
           "opcode": "changePenSizeBy",
-          "count": 25
+          "count": 51
         },
         {
           "opcode": "setPenShadeToNumber",
-          "count": 3
+          "count": 7
         },
         {
           "opcode": "setPenHueToNumber",
+          "count": 4
+        },
+        {
+          "opcode": "changePenShadeBy",
           "count": 1
         }
       ]
     },
     {
       "type": "text2speech",
-      "count": 112,
+      "count": 332,
       "children": [
         {
           "opcode": "speakAndWait",
-          "count": 107
+          "count": 322
         },
         {
           "opcode": "menu_voices",
-          "count": 104
+          "count": 299
         },
         {
           "opcode": "setVoice",
-          "count": 102
+          "count": 296
         },
         {
           "opcode": "menu_languages",
-          "count": 53
+          "count": 139
         },
         {
           "opcode": "setLanguage",
-          "count": 51
+          "count": 136
         }
       ]
     },
     {
       "type": "music",
-      "count": 77,
+      "count": 206,
       "children": [
         {
           "opcode": "restForBeats",
-          "count": 62
+          "count": 157
         },
         {
           "opcode": "setTempo",
-          "count": 38
-        },
-        {
-          "opcode": "menu_INSTRUMENT",
-          "count": 20
+          "count": 89
         },
         {
           "opcode": "playNoteForBeats",
-          "count": 19
+          "count": 55
+        },
+        {
+          "opcode": "menu_INSTRUMENT",
+          "count": 54
         },
         {
           "opcode": "setInstrument",
-          "count": 18
+          "count": 51
         },
         {
           "opcode": "menu_DRUM",
-          "count": 9
+          "count": 25
         },
         {
           "opcode": "playDrumForBeats",
-          "count": 7
+          "count": 22
         },
         {
           "opcode": "getTempo",
-          "count": 4
-        }
-      ]
-    },
-    {
-      "type": "note",
-      "count": 21,
-      "children": [
-        {
-          "opcode": "",
-          "count": 21
+          "count": 13
         }
       ]
     },
     {
       "type": "makeymakey",
-      "count": 21,
+      "count": 62,
       "children": [
         {
           "opcode": "menu_SEQUENCE",
-          "count": 18
+          "count": 54
         },
         {
           "opcode": "whenCodePressed",
-          "count": 17
+          "count": 52
         },
         {
           "opcode": "menu_KEY",
-          "count": 7
+          "count": 16
         },
         {
           "opcode": "whenMakeyKeyPressed",
-          "count": 5
+          "count": 13
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "count": 59,
+      "children": [
+        {
+          "opcode": "",
+          "count": 59
         }
       ]
     },
     {
       "type": "translate",
-      "count": 18,
+      "count": 55,
       "children": [
         {
           "opcode": "menu_languages",
-          "count": 12
+          "count": 38
         },
         {
           "opcode": "getTranslate",
-          "count": 10
+          "count": 35
         },
         {
           "opcode": "getViewerLanguage",
-          "count": 10
+          "count": 29
         }
       ]
     },
     {
       "type": "videoSensing",
-      "count": 4,
+      "count": 17,
       "children": [
         {
           "opcode": "menu_VIDEO_STATE",
-          "count": 4
+          "count": 16
         },
         {
           "opcode": "videoToggle",
-          "count": 3
+          "count": 14
         },
         {
           "opcode": "setVideoTransparency",
-          "count": 3
+          "count": 10
         },
         {
           "opcode": "menu_ATTRIBUTE",
-          "count": 3
+          "count": 6
         },
         {
           "opcode": "menu_SUBJECT",
-          "count": 3
+          "count": 6
         },
         {
           "opcode": "videoOn",
-          "count": 1
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "undefined",
+      "count": 4,
+      "children": [
+        {
+          "opcode": "",
+          "count": 4
         }
       ]
     },
     {
       "type": "matrix",
-      "count": 2,
+      "count": 4,
       "children": [
         {
           "opcode": "",
-          "count": 2
+          "count": 4
         }
       ]
     },
     {
       "type": "gdxfor",
-      "count": 2,
+      "count": 4,
       "children": [
         {
+          "opcode": "menu_pushPullOptions",
+          "count": 4
+        },
+        {
           "opcode": "menu_axisOptions",
-          "count": 2
+          "count": 3
         },
         {
           "opcode": "menu_tiltAnyOptions",
-          "count": 2
-        },
-        {
-          "opcode": "menu_pushPullOptions",
-          "count": 2
+          "count": 3
         },
         {
           "opcode": "menu_gestureOptions",
-          "count": 2
+          "count": 3
         },
         {
           "opcode": "menu_tiltOptions",
+          "count": 2
+        },
+        {
+          "opcode": "whenForcePushedOrPulled",
           "count": 1
         }
       ]
     },
     {
       "type": "wedo2",
-      "count": 2,
+      "count": 4,
       "children": [
         {
           "opcode": "menu_MOTOR_ID",
-          "count": 2
+          "count": 3
         },
         {
           "opcode": "menu_OP",
-          "count": 2
+          "count": 3
         },
         {
           "opcode": "menu_TILT_DIRECTION",
-          "count": 2
+          "count": 3
         },
         {
           "opcode": "menu_MOTOR_DIRECTION",
+          "count": 2
+        },
+        {
+          "opcode": "setLightHue",
           "count": 1
         }
       ]
     },
     {
-      "type": "undefined",
+      "type": "microbit",
       "count": 2,
       "children": [
         {
-          "opcode": "",
+          "opcode": "menu_tiltDirectionAny",
           "count": 2
+        },
+        {
+          "opcode": "isButtonPressed",
+          "count": 1
+        },
+        {
+          "opcode": "menu_buttons",
+          "count": 1
+        },
+        {
+          "opcode": "isTilted",
+          "count": 1
+        },
+        {
+          "opcode": "whenTilted",
+          "count": 1
+        },
+        {
+          "opcode": "displayClear",
+          "count": 1
         }
       ]
     },
@@ -1939,6 +2055,31 @@
           "count": 1
         }
       ]
+    },
+    {
+      "type": "ev3",
+      "count": 1,
+      "children": [
+        {
+          "opcode": "getDistance",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "boost",
+      "count": 1,
+      "children": [
+        {
+          "opcode": "whenColor",
+          "count": 1
+        },
+        {
+          "opcode": "menu_COLOR",
+          "count": 1
+        }
+      ]
     }
-  ]
+  ],
+  "countAt": "2025-02-26T10:40:12.376Z"
 }

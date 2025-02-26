@@ -14,10 +14,12 @@
       margin: 0;
       padding: 0;
     }
-
     #chart {
       box-sizing: border-box;
       padding: 2em;
+    }
+    .header {
+      text-align: center;
     }
   </style>
   <h4 class="header">
@@ -90,7 +92,7 @@
   
       myChart.setOption({
         title: {
-          text: `Block Usage for the most popular ${f.addCommas(projectNum)} projects (${f.addCommas(blockNum)} blocks)`,
+          text: `Block Usage for the most popular ${f.addCommas(projectNum)} Scratch projects`,
           left: 'center'
         },
         tooltip: {
@@ -102,11 +104,12 @@
               treePath.push(treePathInfo[i].name);
             }
             const percent = (value / totalNum * 100).toFixed(3)
+            const countName = countFor === 'block' ? 'blocks' : 'projects'
             return [
               '<div class="tooltip-title">' +
                 f.encodeHTML(treePath.join('/')) +
                 '</div>',
-              `Count: ${f.addCommas(value)}, Percent: ${percent}%`,
+              `Used by ${f.addCommas(value)} ${countName}, ${percent}% of all ${countName}`
             ].join('');
           }
         },

@@ -4,9 +4,9 @@
  */
 
 import { join } from 'node:path'
+import { writeFile } from 'node:fs/promises'
 import { storagePath } from './base.js'
 import { listProjectByFiles, readProjectFile } from './project.js'
-import { writeFile } from 'node:fs/promises'
 
 type CountsForOpcode = {
   project: number
@@ -107,7 +107,8 @@ async function countAll() {
     projectNum: counts.project,
     blockNum: counts.block,
     blockCounts,
-    projectCounts
+    projectCounts,
+    countAt: new Date().toISOString()
   }
   await writeFile(countAllStoragePath, JSON.stringify(result, null, 2))
 }
