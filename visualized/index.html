@@ -20,6 +20,11 @@
       padding: 2em;
     }
   </style>
+  <h4 class="header">
+    Count for:
+    <a href="?countFor=block">Blocks</a> |
+    <a href="?countFor=project">Projects</a>
+  </h4>
   <div id="chart"></div>
   <script>
     function getLevelOption() {
@@ -58,31 +63,34 @@
     }
 
     ;(async function main() {
+      const countFor = new URLSearchParams(location.search).get('countFor') || 'block'
       const myChart = echarts.init(document.getElementById('chart'))
+
       myChart.showLoading()
       const counts = await fetch('./counts.json').then(res => res.json())
       myChart.hideLoading()
-      const formatUtil = echarts.format;
 
-      const data = counts.byOpcodeType.map(({ type, count }) => {
-        const children = counts.byOpcode.filter(({ opcode }) => {
-          return opcode === type || opcode.startsWith(type + '_')
-        }).map(({ opcode, count }) => ({
-          name: opcode,
-          value: count,
-          path: `${type}/${opcode}`
-        }))
+      const f = echarts.format
+      const { projectNum, blockNum, blockCounts, projectCounts } = counts
+
+      const totalNum = countFor === 'block' ? blockNum : projectNum
+      const countsForTypes = countFor === 'block' ? blockCounts : projectCounts
+      const data = countsForTypes.map(({ type, count, children }) => {
         return {
           name: type,
           path: type,
           value: count,
-          children
+          children: children.map(({ opcode, count }) => ({
+            name: opcode,
+            value: count,
+            path: `${type}/${opcode}`
+          }))
         }
       })
   
       myChart.setOption({
         title: {
-          text: `Block Usage for the most popular ${formatUtil.addCommas(counts.projectNum)} projects (${formatUtil.addCommas(counts.totalBlockNum)} blocks)`,
+          text: `Block Usage for the most popular ${f.addCommas(projectNum)} projects (${f.addCommas(blockNum)} blocks)`,
           left: 'center'
         },
         tooltip: {
@@ -93,12 +101,12 @@
             for (var i = 1; i < treePathInfo.length; i++) {
               treePath.push(treePathInfo[i].name);
             }
-            const percent = (value / counts.totalBlockNum * 100).toFixed(3)
+            const percent = (value / totalNum * 100).toFixed(3)
             return [
               '<div class="tooltip-title">' +
-                formatUtil.encodeHTML(treePath.join('/')) +
+                f.encodeHTML(treePath.join('/')) +
                 '</div>',
-              `Count: ${formatUtil.addCommas(value)}, Percent: ${percent}%`,
+              `Count: ${f.addCommas(value)}, Percent: ${percent}%`,
             ].join('');
           }
         },

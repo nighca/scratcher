@@ -8,51 +8,115 @@ import { storagePath } from './base.js'
 import { listProjectByFiles, readProjectFile } from './project.js'
 import { writeFile } from 'node:fs/promises'
 
-/** Map from block opcode to count */
-type OpcodeCounts = Map<string, number>
+type CountsForOpcode = {
+  project: number
+  block: number
+}
 
-async function countProject(projectId: number, counts: OpcodeCounts) {
+type CountsForOpcodeType = {
+  project: number
+  block: number
+  byOpcode: Map<string, CountsForOpcode>
+}
+
+type Counts = {
+  project: number
+  block: number
+  byOpcodeType: Map<string, CountsForOpcodeType>
+}
+
+async function countProject(projectId: number, counts: Counts) {
   const project = await readProjectFile(projectId)
+  const opcodeTypeSet = new Set<string>()
+  const opcodeSet = new Set<string>()
+
   for (const target of project.targets) {
     for (const block of Object.values(target.blocks)) {
       if (block.opcode == null) continue
-      counts.set(block.opcode, (counts.get(block.opcode) ?? 0) + 1)
+
+      counts.block++
+
+      const opcode = block.opcode
+      const type = block.opcode.split('_')[0]
+
+      let typeCounts = counts.byOpcodeType.get(type)
+      if (typeCounts == null) {
+        typeCounts = { project: 0, block: 0, byOpcode: new Map() }
+        counts.byOpcodeType.set(type, typeCounts)
+      }
+      typeCounts.block++
+      opcodeTypeSet.add(type)
+
+      let opcodeCounts = typeCounts.byOpcode.get(opcode)
+      if (opcodeCounts == null) {
+        opcodeCounts = { project: 0, block: 0 }
+        typeCounts.byOpcode.set(opcode, opcodeCounts)
+      }
+      opcodeCounts.block++
+      opcodeSet.add(block.opcode)
     }
+  }
+
+  counts.project++
+  for (const type of opcodeTypeSet) {
+    counts.byOpcodeType.get(type)!.project++
+  }
+  for (const opcode of opcodeSet) {
+    counts.byOpcodeType.get(opcode.split('_')[0])!.byOpcode.get(opcode)!.project++
   }
 }
 
 async function countByProjectIds(ids: number[]) {
-  const counted = new Map<string, number>()
-  for (const id of ids) {
-    await countProject(id, counted)
+  const counts: Counts = {
+    project: 0,
+    block: 0,
+    byOpcodeType: new Map()
   }
-  return counted
+  for (const id of ids) {
+    await countProject(id, counts)
+  }
+  return counts
 }
 
 const countAllStoragePath = join(storagePath, 'counts.json')
 
 async function countAll() {
+
   const projectIds = await listProjectByFiles()
   const counts = await countByProjectIds(projectIds)
-  const opcodeAndCounts = Array.from(counts.entries()).sort((a, b) => b[1] - a[1])
-  const totalCount = opcodeAndCounts.reduce((sum, [_, count]) => sum + count, 0)
-  const countsByOpcodeType = new Map<string, number>()
-  for (const [opcode, count] of opcodeAndCounts) {
-    const type = opcode.split('_')[0]
-    countsByOpcodeType.set(type, (countsByOpcodeType.get(type) ?? 0) + count)
-  }
-  const opcodeTypeAndCounts = Array.from(countsByOpcodeType.entries()).sort((a, b) => b[1] - a[1])
+
+  const blockCounts = Array.from(counts.byOpcodeType.entries()).map(([type, counts]) => ({
+    type,
+    count: counts.block,
+    children: Array.from(counts.byOpcode.entries()).map(([opcode, counts]) => ({
+      opcode: opcode.slice(type.length + 1),
+      count: counts.block
+    })).sort(byCount)
+  })).sort(byCount)
+
+  const projectCounts = Array.from(counts.byOpcodeType.entries()).map(([type, counts]) => ({
+    type,
+    count: counts.project,
+    children: Array.from(counts.byOpcode.entries()).map(([opcode, counts]) => ({
+      opcode: opcode.slice(type.length + 1),
+      count: counts.project
+    })).sort(byCount)
+  })).sort(byCount)
+
   const result = {
-    projectNum: projectIds.length,
-    totalBlockNum: totalCount,
-    byOpcode: opcodeAndCounts.map(([opcode, count]) => ({ opcode, count, percent: count / totalCount })),
-    byOpcodeType: opcodeTypeAndCounts.map(([type, count]) => ({ type, count, percent: count / totalCount }))
+    projectNum: counts.project,
+    blockNum: counts.block,
+    blockCounts,
+    projectCounts
   }
   await writeFile(countAllStoragePath, JSON.stringify(result, null, 2))
+}
+
+function byCount(a: { count: number }, b: { count: number }) {
+  return b.count - a.count
 }
 
 (async function main() {
   await countAll()
   console.log('[DONE]')
 })()
-
