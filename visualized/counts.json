@@ -1,0 +1,1163 @@
+{
+  "projectNum": 2087,
+  "totalBlockNum": 5262519,
+  "byOpcode": [
+    {
+      "opcode": "procedures_call",
+      "count": 369514,
+      "percent": 0.07021618354252022
+    },
+    {
+      "opcode": "operator_equals",
+      "count": 326530,
+      "percent": 0.06204823203488671
+    },
+    {
+      "opcode": "control_wait",
+      "count": 279771,
+      "percent": 0.05316294344970536
+    },
+    {
+      "opcode": "data_setvariableto",
+      "count": 250018,
+      "percent": 0.04750918714022695
+    },
+    {
+      "opcode": "argument_reporter_string_number",
+      "count": 239227,
+      "percent": 0.04545864822530807
+    },
+    {
+      "opcode": "looks_costume",
+      "count": 232666,
+      "percent": 0.044211906883376575
+    },
+    {
+      "opcode": "looks_switchcostumeto",
+      "count": 232519,
+      "percent": 0.04418397349254226
+    },
+    {
+      "opcode": "control_if",
+      "count": 215217,
+      "percent": 0.04089619438903688
+    },
+    {
+      "opcode": "control_if_else",
+      "count": 147158,
+      "percent": 0.02796341447888359
+    },
+    {
+      "opcode": "event_whenbroadcastreceived",
+      "count": 145079,
+      "percent": 0.027568356522798303
+    },
+    {
+      "opcode": "control_repeat",
+      "count": 117967,
+      "percent": 0.022416451133003036
+    },
+    {
+      "opcode": "data_itemoflist",
+      "count": 110820,
+      "percent": 0.021058356273868085
+    },
+    {
+      "opcode": "operator_add",
+      "count": 89438,
+      "percent": 0.01699528305741034
+    },
+    {
+      "opcode": "operator_and",
+      "count": 87826,
+      "percent": 0.016688965873567392
+    },
+    {
+      "opcode": "looks_seteffectto",
+      "count": 79262,
+      "percent": 0.015061608328635012
+    },
+    {
+      "opcode": "looks_hide",
+      "count": 78118,
+      "percent": 0.014844221940101309
+    },
+    {
+      "opcode": "operator_multiply",
+      "count": 75717,
+      "percent": 0.01438797655647419
+    },
+    {
+      "opcode": "operator_lt",
+      "count": 73836,
+      "percent": 0.014030543167635119
+    },
+    {
+      "opcode": "operator_subtract",
+      "count": 71974,
+      "percent": 0.01367672021706715
+    },
+    {
+      "opcode": "procedures_prototype",
+      "count": 71881,
+      "percent": 0.013659048071845441
+    },
+    {
+      "opcode": "procedures_definition",
+      "count": 71841,
+      "percent": 0.013651447149169438
+    },
+    {
+      "opcode": "sensing_touchingobjectmenu",
+      "count": 68733,
+      "percent": 0.013060855457243954
+    },
+    {
+      "opcode": "sensing_touchingobject",
+      "count": 68697,
+      "percent": 0.013054014626835551
+    },
+    {
+      "opcode": "operator_or",
+      "count": 65991,
+      "percent": 0.012539812207803905
+    },
+    {
+      "opcode": "data_changevariableby",
+      "count": 62468,
+      "percent": 0.011870360943114885
+    },
+    {
+      "opcode": "event_whenflagclicked",
+      "count": 59002,
+      "percent": 0.01121174099323917
+    },
+    {
+      "opcode": "event_broadcast",
+      "count": 58650,
+      "percent": 0.011144852873690337
+    },
+    {
+      "opcode": "motion_gotoxy",
+      "count": 56692,
+      "percent": 0.010772787708699959
+    },
+    {
+      "opcode": "looks_show",
+      "count": 56388,
+      "percent": 0.010715020696362331
+    },
+    {
+      "opcode": "control_forever",
+      "count": 53271,
+      "percent": 0.010122718796834749
+    },
+    {
+      "opcode": "operator_gt",
+      "count": 49279,
+      "percent": 0.009364146713769584
+    },
+    {
+      "opcode": "operator_divide",
+      "count": 48011,
+      "percent": 0.00912319746494027
+    },
+    {
+      "opcode": "motion_changeyby",
+      "count": 43583,
+      "percent": 0.008281775324706666
+    },
+    {
+      "opcode": "sound_sounds_menu",
+      "count": 41212,
+      "percent": 0.00783123063308655
+    },
+    {
+      "opcode": "operator_random",
+      "count": 40275,
+      "percent": 0.007653179019401165
+    },
+    {
+      "opcode": "sensing_distancetomenu",
+      "count": 36615,
+      "percent": 0.006957694594546832
+    },
+    {
+      "opcode": "sensing_distanceto",
+      "count": 36613,
+      "percent": 0.006957314548413032
+    },
+    {
+      "opcode": "data_replaceitemoflist",
+      "count": 34545,
+      "percent": 0.006564346846063644
+    },
+    {
+      "opcode": "operator_not",
+      "count": 34294,
+      "percent": 0.006516651056271721
+    },
+    {
+      "opcode": "looks_gotofrontback",
+      "count": 33269,
+      "percent": 0.0063218774126991275
+    },
+    {
+      "opcode": "sound_play",
+      "count": 32984,
+      "percent": 0.006267720838632602
+    },
+    {
+      "opcode": "data_addtolist",
+      "count": 32689,
+      "percent": 0.006211664033897075
+    },
+    {
+      "opcode": "sound_setvolumeto",
+      "count": 32645,
+      "percent": 0.006203303018953471
+    },
+    {
+      "opcode": "operator_join",
+      "count": 32493,
+      "percent": 0.006174419512784657
+    },
+    {
+      "opcode": "looks_costumenumbername",
+      "count": 32146,
+      "percent": 0.006108481508570325
+    },
+    {
+      "opcode": "control_create_clone_of_menu",
+      "count": 31469,
+      "percent": 0.005979835892278964
+    },
+    {
+      "opcode": "control_create_clone_of",
+      "count": 31445,
+      "percent": 0.0059752753386733614
+    },
+    {
+      "opcode": "control_stop",
+      "count": 29726,
+      "percent": 0.0056486256866721055
+    },
+    {
+      "opcode": "control_wait_until",
+      "count": 28648,
+      "percent": 0.005443780820553807
+    },
+    {
+      "opcode": "looks_changeeffectby",
+      "count": 28218,
+      "percent": 0.005362070901786768
+    },
+    {
+      "opcode": "looks_setsizeto",
+      "count": 27610,
+      "percent": 0.005246536877111512
+    },
+    {
+      "opcode": "sensing_of",
+      "count": 22729,
+      "percent": 0.004319034287572169
+    },
+    {
+      "opcode": "sensing_of_object_menu",
+      "count": 22717,
+      "percent": 0.004316754010769367
+    },
+    {
+      "opcode": "operator_mathop",
+      "count": 22498,
+      "percent": 0.004275138959118247
+    },
+    {
+      "opcode": "sensing_timer",
+      "count": 19651,
+      "percent": 0.0037341432876536883
+    },
+    {
+      "opcode": "looks_nextcostume",
+      "count": 19522,
+      "percent": 0.0037096303120235765
+    },
+    {
+      "opcode": "motion_pointindirection",
+      "count": 18870,
+      "percent": 0.0035857352724047173
+    },
+    {
+      "opcode": "control_repeat_until",
+      "count": 18547,
+      "percent": 0.0035243578217959877
+    },
+    {
+      "opcode": "control_delete_this_clone",
+      "count": 17441,
+      "percent": 0.0033141923098044873
+    },
+    {
+      "opcode": "sensing_keyoptions",
+      "count": 16955,
+      "percent": 0.003221841099291043
+    },
+    {
+      "opcode": "sensing_keypressed",
+      "count": 16935,
+      "percent": 0.0032180406379530412
+    },
+    {
+      "opcode": "note",
+      "count": 16156,
+      "percent": 0.00307001266883787
+    },
+    {
+      "opcode": "music_playNoteForBeats",
+      "count": 16128,
+      "percent": 0.003064692022964668
+    },
+    {
+      "opcode": "control_start_as_clone",
+      "count": 15832,
+      "percent": 0.0030084451951622408
+    },
+    {
+      "opcode": "operator_letter_of",
+      "count": 15251,
+      "percent": 0.002898041793293288
+    },
+    {
+      "opcode": "motion_changexby",
+      "count": 15248,
+      "percent": 0.0028974717240925875
+    },
+    {
+      "opcode": "event_whenthisspriteclicked",
+      "count": 14190,
+      "percent": 0.0026964273193122914
+    },
+    {
+      "opcode": "sensing_mousedown",
+      "count": 14042,
+      "percent": 0.002668303905411078
+    },
+    {
+      "opcode": "motion_xposition",
+      "count": 13800,
+      "percent": 0.002622318323221256
+    },
+    {
+      "opcode": "motion_yposition",
+      "count": 13231,
+      "percent": 0.002514195198155104
+    },
+    {
+      "opcode": "looks_changesizeby",
+      "count": 11833,
+      "percent": 0.0022485429506287767
+    },
+    {
+      "opcode": "operator_contains",
+      "count": 11361,
+      "percent": 0.002158852063051934
+    },
+    {
+      "opcode": "operator_round",
+      "count": 11295,
+      "percent": 0.002146310540636528
+    },
+    {
+      "opcode": "looks_goforwardbackwardlayers",
+      "count": 10981,
+      "percent": 0.0020866432976298995
+    },
+    {
+      "opcode": "motion_glidesecstoxy",
+      "count": 9970,
+      "percent": 0.0018945299769939073
+    },
+    {
+      "opcode": "data_deletealloflist",
+      "count": 9917,
+      "percent": 0.0018844587544482026
+    },
+    {
+      "opcode": "motion_goto_menu",
+      "count": 8996,
+      "percent": 0.0017094475098332186
+    },
+    {
+      "opcode": "motion_goto",
+      "count": 8994,
+      "percent": 0.0017090674636994184
+    },
+    {
+      "opcode": "motion_turnright",
+      "count": 8713,
+      "percent": 0.001655670981900493
+    },
+    {
+      "opcode": "data_lengthoflist",
+      "count": 8320,
+      "percent": 0.0015809919166087571
+    },
+    {
+      "opcode": "sound_playuntildone",
+      "count": 8204,
+      "percent": 0.0015589492408483465
+    },
+    {
+      "opcode": "looks_size",
+      "count": 7689,
+      "percent": 0.0014610873613947997
+    },
+    {
+      "opcode": "looks_cleargraphiceffects",
+      "count": 7510,
+      "percent": 0.0014270732324196834
+    },
+    {
+      "opcode": "motion_movesteps",
+      "count": 7458,
+      "percent": 0.0014171920329408786
+    },
+    {
+      "opcode": "music_restForBeats",
+      "count": 6833,
+      "percent": 0.0012984276161283218
+    },
+    {
+      "opcode": "operator_mod",
+      "count": 6681,
+      "percent": 0.001269544109959508
+    },
+    {
+      "opcode": "sensing_mousey",
+      "count": 6220,
+      "percent": 0.001181943476118566
+    },
+    {
+      "opcode": "data_itemnumoflist",
+      "count": 6206,
+      "percent": 0.0011792831531819647
+    },
+    {
+      "opcode": "looks_backdrops",
+      "count": 5915,
+      "percent": 0.0011239864407140382
+    },
+    {
+      "opcode": "looks_switchbackdropto",
+      "count": 5866,
+      "percent": 0.0011146753104359338
+    },
+    {
+      "opcode": "motion_direction",
+      "count": 5546,
+      "percent": 0.0010538679290279047
+    },
+    {
+      "opcode": "motion_sety",
+      "count": 5486,
+      "percent": 0.0010424665450138992
+    },
+    {
+      "opcode": "event_broadcastandwait",
+      "count": 5357,
+      "percent": 0.0010179535693837876
+    },
+    {
+      "opcode": "data_listcontainsitem",
+      "count": 5175,
+      "percent": 0.000983369371207971
+    },
+    {
+      "opcode": "motion_setx",
+      "count": 4758,
+      "percent": 0.000904129752310633
+    },
+    {
+      "opcode": "event_whenkeypressed",
+      "count": 4353,
+      "percent": 0.0008271704102160961
+    },
+    {
+      "opcode": "data_deleteoflist",
+      "count": 3863,
+      "percent": 0.0007340591074350515
+    },
+    {
+      "opcode": "motion_turnleft",
+      "count": 3786,
+      "percent": 0.0007194273312837445
+    },
+    {
+      "opcode": "looks_sayforsecs",
+      "count": 3750,
+      "percent": 0.0007125865008753413
+    },
+    {
+      "opcode": "data_hidevariable",
+      "count": 3690,
+      "percent": 0.0007011851168613358
+    },
+    {
+      "opcode": "sensing_mousex",
+      "count": 3664,
+      "percent": 0.0006962445171219334
+    },
+    {
+      "opcode": "operator_length",
+      "count": 3575,
+      "percent": 0.0006793324641678253
+    },
+    {
+      "opcode": "motion_setrotationstyle",
+      "count": 3300,
+      "percent": 0.0006270761207703003
+    },
+    {
+      "opcode": "argument_reporter_boolean",
+      "count": 3059,
+      "percent": 0.0005812805616473783
+    },
+    {
+      "opcode": "looks_say",
+      "count": 2881,
+      "percent": 0.0005474564557391622
+    },
+    {
+      "opcode": "sound_stopallsounds",
+      "count": 2875,
+      "percent": 0.0005463163173377617
+    },
+    {
+      "opcode": "motion_pointtowards_menu",
+      "count": 2307,
+      "percent": 0.0004383832153385099
+    },
+    {
+      "opcode": "motion_pointtowards",
+      "count": 2304,
+      "percent": 0.00043781314613780965
+    },
+    {
+      "opcode": "sensing_answer",
+      "count": 2194,
+      "percent": 0.00041691060877879966
+    },
+    {
+      "opcode": "data_showvariable",
+      "count": 2135,
+      "percent": 0.0004056992478316943
+    },
+    {
+      "opcode": "sensing_touchingcolor",
+      "count": 2065,
+      "percent": 0.00039239763314868794
+    },
+    {
+      "opcode": "text2speech_speakAndWait",
+      "count": 1852,
+      "percent": 0.0003519227198989685
+    },
+    {
+      "opcode": "event_whenbackdropswitchesto",
+      "count": 1809,
+      "percent": 0.00034375172802226465
+    },
+    {
+      "opcode": "pen_stamp",
+      "count": 1757,
+      "percent": 0.00033387052854345987
+    },
+    {
+      "opcode": "sensing_current",
+      "count": 1631,
+      "percent": 0.0003099276221140484
+    },
+    {
+      "opcode": "sensing_resettimer",
+      "count": 1586,
+      "percent": 0.00030137658410354435
+    },
+    {
+      "opcode": "data_insertatlist",
+      "count": 1360,
+      "percent": 0.0002584313709841238
+    },
+    {
+      "opcode": "sound_seteffectto",
+      "count": 1356,
+      "percent": 0.0002576712787165234
+    },
+    {
+      "opcode": "pen_penUp",
+      "count": 1317,
+      "percent": 0.00025026037910741986
+    },
+    {
+      "opcode": "looks_backdropnumbername",
+      "count": 1297,
+      "percent": 0.000246459917769418
+    },
+    {
+      "opcode": "sensing_username",
+      "count": 1233,
+      "percent": 0.0002342984414878122
+    },
+    {
+      "opcode": "pen_setPenColorToColor",
+      "count": 1109,
+      "percent": 0.00021073558119220093
+    },
+    {
+      "opcode": "sensing_dayssince2000",
+      "count": 1105,
+      "percent": 0.00020997548892460056
+    },
+    {
+      "opcode": "pen_penDown",
+      "count": 1052,
+      "percent": 0.00019990426637889574
+    },
+    {
+      "opcode": "music_menu_DRUM",
+      "count": 1009,
+      "percent": 0.0001917332745021918
+    },
+    {
+      "opcode": "music_playDrumForBeats",
+      "count": 1007,
+      "percent": 0.00019135322836839164
+    },
+    {
+      "opcode": "pen_clear",
+      "count": 941,
+      "percent": 0.00017881170595298562
+    },
+    {
+      "opcode": "pen_setPenSizeTo",
+      "count": 929,
+      "percent": 0.00017653142915018455
+    },
+    {
+      "opcode": "data_hidelist",
+      "count": 918,
+      "percent": 0.00017444117541428353
+    },
+    {
+      "opcode": "sound_changevolumeby",
+      "count": 911,
+      "percent": 0.0001731110139459829
+    },
+    {
+      "opcode": "sensing_askandwait",
+      "count": 769,
+      "percent": 0.00014612773844616998
+    },
+    {
+      "opcode": "text2speech_menu_voices",
+      "count": 755,
+      "percent": 0.00014346741550956871
+    },
+    {
+      "opcode": "text2speech_setVoice",
+      "count": 753,
+      "percent": 0.00014308736937576852
+    },
+    {
+      "opcode": "pen_menu_colorParam",
+      "count": 668,
+      "percent": 0.0001269354086892608
+    },
+    {
+      "opcode": "sensing_setdragmode",
+      "count": 666,
+      "percent": 0.0001265553625554606
+    },
+    {
+      "opcode": "event_whengreaterthan",
+      "count": 645,
+      "percent": 0.0001225648781505587
+    },
+    {
+      "opcode": "pen_setPenColorParamTo",
+      "count": 511,
+      "percent": 0.0000971017871859465
+    },
+    {
+      "opcode": "data_showlist",
+      "count": 425,
+      "percent": 0.00008075980343253867
+    },
+    {
+      "opcode": "text2speech_menu_languages",
+      "count": 341,
+      "percent": 0.00006479786581293103
+    },
+    {
+      "opcode": "looks_nextbackdrop",
+      "count": 340,
+      "percent": 0.00006460784274603095
+    },
+    {
+      "opcode": "text2speech_setLanguage",
+      "count": 339,
+      "percent": 0.00006441781967913085
+    },
+    {
+      "opcode": "sound_cleareffects",
+      "count": 286,
+      "percent": 0.00005434659713342602
+    },
+    {
+      "opcode": "control_for_each",
+      "count": 269,
+      "percent": 0.00005111620499612448
+    },
+    {
+      "opcode": "sound_volume",
+      "count": 254,
+      "percent": 0.00004826585899262311
+    },
+    {
+      "opcode": "motion_ifonedgebounce",
+      "count": 170,
+      "percent": 0.00003230392137301547
+    },
+    {
+      "opcode": "control_while",
+      "count": 169,
+      "percent": 0.00003211389830611538
+    },
+    {
+      "opcode": "sensing_coloristouchingcolor",
+      "count": 163,
+      "percent": 0.00003097375990471483
+    },
+    {
+      "opcode": "looks_thinkforsecs",
+      "count": 159,
+      "percent": 0.00003021366763711447
+    },
+    {
+      "opcode": "pen_changePenColorParamBy",
+      "count": 154,
+      "percent": 0.000029263552302614014
+    },
+    {
+      "opcode": "motion_glideto_menu",
+      "count": 137,
+      "percent": 0.000026033160165312467
+    },
+    {
+      "opcode": "motion_glideto",
+      "count": 136,
+      "percent": 0.000025843137098412375
+    },
+    {
+      "opcode": "sound_changeeffectby",
+      "count": 127,
+      "percent": 0.000024132929496311556
+    },
+    {
+      "opcode": "translate_menu_languages",
+      "count": 110,
+      "percent": 0.000020902537359010012
+    },
+    {
+      "opcode": "translate_getTranslate",
+      "count": 108,
+      "percent": 0.00002052249122520983
+    },
+    {
+      "opcode": "makeymakey_menu_SEQUENCE",
+      "count": 88,
+      "percent": 0.000016722029887208007
+    },
+    {
+      "opcode": "makeymakey_whenCodePressed",
+      "count": 87,
+      "percent": 0.000016532006820307916
+    },
+    {
+      "opcode": "looks_think",
+      "count": 84,
+      "percent": 0.000015961937619607645
+    },
+    {
+      "opcode": "music_menu_INSTRUMENT",
+      "count": 75,
+      "percent": 0.000014251730017506826
+    },
+    {
+      "opcode": "music_setInstrument",
+      "count": 73,
+      "percent": 0.000013871683883706643
+    },
+    {
+      "opcode": "music_getTempo",
+      "count": 73,
+      "percent": 0.000013871683883706643
+    },
+    {
+      "opcode": "pen_changePenSizeBy",
+      "count": 62,
+      "percent": 0.000011781430147805642
+    },
+    {
+      "opcode": "music_setTempo",
+      "count": 55,
+      "percent": 0.000010451268679505006
+    },
+    {
+      "opcode": "event_whenstageclicked",
+      "count": 53,
+      "percent": 0.000010071222545704823
+    },
+    {
+      "opcode": "translate_getViewerLanguage",
+      "count": 50,
+      "percent": 0.00000950115334500455
+    },
+    {
+      "opcode": "looks_switchbackdroptoandwait",
+      "count": 46,
+      "percent": 0.000008741061077404187
+    },
+    {
+      "opcode": "makeymakey_menu_KEY",
+      "count": 36,
+      "percent": 0.000006840830408403276
+    },
+    {
+      "opcode": "makeymakey_whenMakeyKeyPressed",
+      "count": 34,
+      "percent": 0.000006460784274603094
+    },
+    {
+      "opcode": "matrix",
+      "count": 33,
+      "percent": 0.000006270761207703003
+    },
+    {
+      "opcode": "wedo2_menu_OP",
+      "count": 12,
+      "percent": 0.000002280276802801092
+    },
+    {
+      "opcode": "control_all_at_once",
+      "count": 10,
+      "percent": 0.00000190023066900091
+    },
+    {
+      "opcode": "control_incr_counter",
+      "count": 10,
+      "percent": 0.00000190023066900091
+    },
+    {
+      "opcode": "control_clear_counter",
+      "count": 10,
+      "percent": 0.00000190023066900091
+    },
+    {
+      "opcode": "videoSensing_menu_VIDEO_STATE",
+      "count": 9,
+      "percent": 0.000001710207602100819
+    },
+    {
+      "opcode": "control_get_counter",
+      "count": 9,
+      "percent": 0.000001710207602100819
+    },
+    {
+      "opcode": "argument_editor_boolean",
+      "count": 9,
+      "percent": 0.000001710207602100819
+    },
+    {
+      "opcode": "event_whentouchingobject",
+      "count": 8,
+      "percent": 0.000001520184535200728
+    },
+    {
+      "opcode": "gdxfor_menu_axisOptions",
+      "count": 8,
+      "percent": 0.000001520184535200728
+    },
+    {
+      "opcode": "sensing_loudness",
+      "count": 7,
+      "percent": 0.000001330161468300637
+    },
+    {
+      "opcode": "videoSensing_videoToggle",
+      "count": 7,
+      "percent": 0.000001330161468300637
+    },
+    {
+      "opcode": "wedo2_menu_TILT_DIRECTION",
+      "count": 6,
+      "percent": 0.000001140138401400546
+    },
+    {
+      "opcode": "videoSensing_menu_ATTRIBUTE",
+      "count": 5,
+      "percent": 9.50115334500455e-7
+    },
+    {
+      "opcode": "videoSensing_menu_SUBJECT",
+      "count": 5,
+      "percent": 9.50115334500455e-7
+    },
+    {
+      "opcode": "event_definition",
+      "count": 4,
+      "percent": 7.60092267600364e-7
+    },
+    {
+      "opcode": "pen_setPenShadeToNumber",
+      "count": 4,
+      "percent": 7.60092267600364e-7
+    },
+    {
+      "opcode": "sensing_loud",
+      "count": 4,
+      "percent": 7.60092267600364e-7
+    },
+    {
+      "opcode": "videoSensing_setVideoTransparency",
+      "count": 3,
+      "percent": 5.70069200700273e-7
+    },
+    {
+      "opcode": "sensing_userid",
+      "count": 3,
+      "percent": 5.70069200700273e-7
+    },
+    {
+      "opcode": "videoSensing_videoOn",
+      "count": 3,
+      "percent": 5.70069200700273e-7
+    },
+    {
+      "opcode": "gdxfor_menu_tiltAnyOptions",
+      "count": 2,
+      "percent": 3.80046133800182e-7
+    },
+    {
+      "opcode": "gdxfor_menu_pushPullOptions",
+      "count": 2,
+      "percent": 3.80046133800182e-7
+    },
+    {
+      "opcode": "gdxfor_menu_gestureOptions",
+      "count": 2,
+      "percent": 3.80046133800182e-7
+    },
+    {
+      "opcode": "wedo2_menu_MOTOR_ID",
+      "count": 2,
+      "percent": 3.80046133800182e-7
+    },
+    {
+      "opcode": "event_touchingobjectmenu",
+      "count": 2,
+      "percent": 3.80046133800182e-7
+    },
+    {
+      "opcode": "looks_setstretchto",
+      "count": 2,
+      "percent": 3.80046133800182e-7
+    },
+    {
+      "opcode": "looks_changestretchby",
+      "count": 2,
+      "percent": 3.80046133800182e-7
+    },
+    {
+      "opcode": "looks_hideallsprites",
+      "count": 2,
+      "percent": 3.80046133800182e-7
+    },
+    {
+      "opcode": "motion_scroll_right",
+      "count": 2,
+      "percent": 3.80046133800182e-7
+    },
+    {
+      "opcode": "motion_scroll_up",
+      "count": 2,
+      "percent": 3.80046133800182e-7
+    },
+    {
+      "opcode": "undefined",
+      "count": 2,
+      "percent": 3.80046133800182e-7
+    },
+    {
+      "opcode": "pen_setPenHueToNumber",
+      "count": 2,
+      "percent": 3.80046133800182e-7
+    },
+    {
+      "opcode": "sound_beats_menu",
+      "count": 1,
+      "percent": 1.90023066900091e-7
+    },
+    {
+      "opcode": "operator_join3",
+      "count": 1,
+      "percent": 1.90023066900091e-7
+    },
+    {
+      "opcode": "gdxfor_menu_tiltOptions",
+      "count": 1,
+      "percent": 1.90023066900091e-7
+    },
+    {
+      "opcode": "wedo2_menu_MOTOR_DIRECTION",
+      "count": 1,
+      "percent": 1.90023066900091e-7
+    },
+    {
+      "opcode": "motion_align_scene",
+      "count": 1,
+      "percent": 1.90023066900091e-7
+    },
+    {
+      "opcode": "motion_xscroll",
+      "count": 1,
+      "percent": 1.90023066900091e-7
+    },
+    {
+      "opcode": "motion_yscroll",
+      "count": 1,
+      "percent": 1.90023066900091e-7
+    },
+    {
+      "opcode": "coreExample_exampleWithInlineImage",
+      "count": 1,
+      "percent": 1.90023066900091e-7
+    },
+    {
+      "opcode": "coreExample_exampleOpcode",
+      "count": 1,
+      "percent": 1.90023066900091e-7
+    }
+  ],
+  "byOpcodeType": [
+    {
+      "type": "operator",
+      "count": 1066326,
+      "percent": 0.20262653683530643
+    },
+    {
+      "type": "control",
+      "count": 986969,
+      "percent": 0.1875468763153159
+    },
+    {
+      "type": "looks",
+      "count": 878075,
+      "percent": 0.16685450446829742
+    },
+    {
+      "type": "data",
+      "count": 532549,
+      "percent": 0.10119659425457657
+    },
+    {
+      "type": "procedures",
+      "count": 513236,
+      "percent": 0.0975266787635351
+    },
+    {
+      "type": "sensing",
+      "count": 344997,
+      "percent": 0.0655573880113307
+    },
+    {
+      "type": "event",
+      "count": 289152,
+      "percent": 0.054945549840295115
+    },
+    {
+      "type": "argument",
+      "count": 242295,
+      "percent": 0.04604163899455755
+    },
+    {
+      "type": "motion",
+      "count": 233492,
+      "percent": 0.04436886593663605
+    },
+    {
+      "type": "sound",
+      "count": 120855,
+      "percent": 0.022965237750210497
+    },
+    {
+      "type": "music",
+      "count": 25253,
+      "percent": 0.004798652508427998
+    },
+    {
+      "type": "note",
+      "count": 16156,
+      "percent": 0.00307001266883787
+    },
+    {
+      "type": "pen",
+      "count": 8506,
+      "percent": 0.0016163362070521741
+    },
+    {
+      "type": "text2speech",
+      "count": 4040,
+      "percent": 0.0007676931902763676
+    },
+    {
+      "type": "translate",
+      "count": 268,
+      "percent": 0.00005092618192922439
+    },
+    {
+      "type": "makeymakey",
+      "count": 245,
+      "percent": 0.000046555651390522295
+    },
+    {
+      "type": "matrix",
+      "count": 33,
+      "percent": 0.000006270761207703003
+    },
+    {
+      "type": "videoSensing",
+      "count": 32,
+      "percent": 0.000006080738140802912
+    },
+    {
+      "type": "wedo2",
+      "count": 21,
+      "percent": 0.000003990484404901911
+    },
+    {
+      "type": "gdxfor",
+      "count": 15,
+      "percent": 0.000002850346003501365
+    },
+    {
+      "type": "undefined",
+      "count": 2,
+      "percent": 3.80046133800182e-7
+    },
+    {
+      "type": "coreExample",
+      "count": 2,
+      "percent": 3.80046133800182e-7
+    }
+  ]
+}
