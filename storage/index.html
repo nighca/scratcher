@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scratch Projects</title>
+</head>
+<body>
+  <h2>Popular scratch projects</h2>
+  <ul id="list"></ul>
+  <script defer>
+    (async function name(params) {
+      const list = document.querySelector('#list')
+      const data = await fetch('popular.json').then(r => r.json())
+      list.innerHTML = data.projectIds.map(id => `<li><a target="_blank" href="projects/${id}.sb3">${id}.sb3</a></li>`).join('')
+    })()
+  </script>
+</body>
+</html>

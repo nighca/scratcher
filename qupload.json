@@ -1,0 +1,5 @@
+{
+  "src_dir": "./storage",
+  "bucket": "scratch-projects",
+  "overwrite": true
+}
