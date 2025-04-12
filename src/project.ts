@@ -2,9 +2,9 @@ import { join } from 'node:path'
 import { Readable } from 'node:stream'
 import { createWriteStream } from 'node:fs'
 import { finished } from 'node:stream/promises'
-import { mkdir, readdir, readFile, stat } from 'node:fs/promises'
+import { mkdir, readdir, readFile, stat, writeFile } from 'node:fs/promises'
 import { storagePath } from './base.js'
-import { ScratchAPI } from './api.js'
+import { ProjectMeta, ScratchAPI } from './api.js'
 
 export interface File {
   name: string
@@ -85,9 +85,28 @@ async function saveProjectFile(projectId: number, readable: Readable) {
   await finished(readable.pipe(writable))
 }
 
+async function saveProjectMeta(projectId: number, meta: ProjectMeta) {
+  await ensureProjectsStoragePath()
+  const filePath = join(projectsStoragePath, `${projectId}.meta.json`)
+  const jsonData = JSON.stringify(meta, null, 2)
+  await writeFile(filePath, jsonData, 'utf-8')
+}
+
 async function existsProjectFile(projectId: number) {
   await ensureProjectsStoragePath()
   const filePath = join(projectsStoragePath, `${projectId}.sb3`)
+  try {
+    const fstat = await stat(filePath)
+    return fstat.isFile()
+  } catch (e) {
+    if (e && e.code === 'ENOENT') return false
+    throw e
+  }
+}
+
+async function existsProjectMeta(projectId: number) {
+  await ensureProjectsStoragePath()
+  const filePath = join(projectsStoragePath, `${projectId}.meta.json`)
   try {
     const fstat = await stat(filePath)
     return fstat.isFile()
@@ -102,6 +121,13 @@ export async function readProjectFile(projectId: number) {
   const filePath = join(projectsStoragePath, `${projectId}.sb3`)
   const content = await readFile(filePath, 'utf-8')
   return JSON.parse(content) as ProjectData
+}
+
+export async function readProjectMeta(projectId: number) {
+  await ensureProjectsStoragePath()
+  const filePath = join(projectsStoragePath, `${projectId}.meta.json`)
+  const content = await readFile(filePath, 'utf-8')
+  return JSON.parse(content) as ProjectMeta
 }
 
 export async function listProjectByFiles() {
@@ -121,4 +147,13 @@ export async function downloadProject(api: ScratchAPI, projectId: number) {
   const meta = await api.getProjectMeta(projectId)
   const fileResp = await api.getProjectFile(projectId, meta.project_token)
   await saveProjectFile(projectId, fileResp)
+}
+
+export async function downloadProjectMeta(api: ScratchAPI, projectId: number) {
+  if (await existsProjectMeta(projectId)) {
+    console.log(`Project ${projectId} meta already downloaded`)
+    return
+  }
+  const meta = await api.getProjectMeta(projectId)
+  await saveProjectMeta(projectId, meta)
 }

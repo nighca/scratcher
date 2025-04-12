@@ -12,7 +12,11 @@
     (async function name(params) {
       const list = document.querySelector('#list')
       const data = await fetch('popular.json').then(r => r.json())
-      list.innerHTML = data.projectIds.map(id => `<li><a target="_blank" href="projects/${id}.sb3">${id}.sb3</a></li>`).join('')
+      list.innerHTML = data.projectIds.map(id => `<li>
+<span>${id}</span>
+<a target="_blank" href="projects/${id}.meta.json">meta file</a>&nbsp;
+<a target="_blank" href="projects/${id}.sb3">.sb3 file</a>
+</li>`).join('\n')
     })()
   </script>
 </body>

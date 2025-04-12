@@ -1,5 +1,7 @@
 {
   "src_dir": "./storage",
   "bucket": "scratch-projects",
-  "overwrite": true
+  "overwrite": true,
+  "rescan_local": true,
+  "worker_count": 5
 }
